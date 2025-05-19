@@ -5,24 +5,24 @@ This project uses machine learning to **predict late deliveries in complex suppl
 Author: [Roman Dobczansky](https://github.com/roboy88)  
 Status: In Progress | Last Updated: May 2025
 
-## 📦 Overview
+ Overview
 
 This project uses machine learning to **predict late deliveries in complex supply chains**, helping businesses proactively manage delays and improve logistics performance. Trained on over 180,000 supply chain transactions and 450,000 access logs, the model demonstrates how AI can support data-driven supply chain decision-making.
 
 Built to showcase my skillset for the U2xAI Apprenticeship Program.
 
----
 
-## 🎯 Objectives
+
+ Objectives
 
 - Predict whether a shipment will be delayed using historical order data
 - Improve model accuracy through advanced feature selection and tuning
 - Integrate logistics KPIs like `Sales`, `Profit`, `Shipping Mode`, and `Region`
 - Enable future expansion into access log behavioral modeling and dashboard visualization
 
----
 
-## 🧠 Technologies Used
+
+ Technologies Used
 
 - **Python** (pandas, sklearn, seaborn, matplotlib)
 - **Google Colab** – for interactive development
@@ -31,9 +31,9 @@ Built to showcase my skillset for the U2xAI Apprenticeship Program.
 - Feature Engineering
 - Confusion Matrix, F1, Accuracy
 
----
 
-## 📁 Data Sources
+
+ Data Sources
 
 1. `DataCoSupplyChainDataset.csv` – main dataset (180,000+ rows)
 2. `DescriptionDataCoSupplyChain.csv` – column and metadata definitions
@@ -41,7 +41,7 @@ Built to showcase my skillset for the U2xAI Apprenticeship Program.
 
 ---
 
-## 🛠️ How to Use
+ How to Use
 
 1. Open the [Google Colab Notebook](https://colab.research.google.com/)
 2. Upload the three CSV files manually
@@ -51,7 +51,7 @@ Built to showcase my skillset for the U2xAI Apprenticeship Program.
 
 ---
 
-## 📊 Results
+ Results
 
 - Accuracy: **~73%** (improved from baseline of 68%)
 - Tuned Random Forest with robust generalization
@@ -59,14 +59,14 @@ Built to showcase my skillset for the U2xAI Apprenticeship Program.
 
 ---
 
-## 🚀 Next Steps
+ Next Steps
 
 - Integrate `XGBoost` for accuracy boost
 - Add `SHAP` explainability
 - Create executive dashboard with `Plotly` or Tableau
 - Use access logs for behavior clustering or demand forecasting
 
----
+
 
 ## 📞 Contact
 
